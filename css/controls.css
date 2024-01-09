@@ -1,0 +1,45 @@
+button {
+    font-family: "Poppins Regular";
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.button__blue {
+    background-color: var(--button-background-color);
+    color: var(--light-text-color);
+    border: 1px solid var(--button-background-color);
+    border-radius: 10px;
+}
+
+.button__orange {
+    padding: 16px 50px;
+    background-color: var(--button-background-saturated-color);
+    border:  var(--button-background-saturated-color);
+    border-radius: 10px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.button__blue:hover {
+    background-color: var(--button-hover-color);
+}
+
+.button__orange:hover {
+    background-color: var(--button-hover-saturated-color);
+}
+
+.button__blue:active {
+    background-color: var(--button-active-color);
+}
+
+.button__orange:active {
+    background-color: var(--button-active-saturated-color);
+}
+
+.header__aside-login a:hover,
+.footer__top-link-item a:hover,
+.footer__bottom-signature a:hover {
+    font-size: 1.25em;
+}
